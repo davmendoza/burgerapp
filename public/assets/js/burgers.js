@@ -2,7 +2,7 @@
 $(function() {
   $(".change-status").on("click", function(event) {
     var id = $(this).data("id");
-    var newDevoured = $(this).data("newsleep");
+    var newDevoured = $(this).data("newdevoured");
     var newDevouredState = {
       sleepy: newDevoured
     };
